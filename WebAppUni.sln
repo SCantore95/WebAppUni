@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppUni", "WebAppUni\WebAppUni.csproj", "{F04C24B3-E772-44A7-874D-D3483BF6F06A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D874D381-5F03-42A1-8794-58F9B687B7DA} = {D874D381-5F03-42A1-8794-58F9B687B7DA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniLIbService", "UniLIbService\UniLIbService.csproj", "{D874D381-5F03-42A1-8794-58F9B687B7DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04C24B3-E772-44A7-874D-D3483BF6F06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04C24B3-E772-44A7-874D-D3483BF6F06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04C24B3-E772-44A7-874D-D3483BF6F06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04C24B3-E772-44A7-874D-D3483BF6F06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D874D381-5F03-42A1-8794-58F9B687B7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D874D381-5F03-42A1-8794-58F9B687B7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D874D381-5F03-42A1-8794-58F9B687B7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D874D381-5F03-42A1-8794-58F9B687B7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {475C775C-A7B1-4FC7-B485-D679B91D16F7}
+	EndGlobalSection
+EndGlobal

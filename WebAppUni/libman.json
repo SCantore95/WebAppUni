@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "defaultProvider": "filesystem",
+  "libraries": [
+    {
+      "library": "../UniLibService/",
+      "destination": "wwwroot/lib/UniLibService",
+      "files": [
+        "DbManager.cs",
+        "StudentRepository.cs",
+        "StudentsService.cs",
+        
+      ]
+    }
+  ]
+}
